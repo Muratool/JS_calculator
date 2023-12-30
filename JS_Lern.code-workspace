@@ -1,0 +1,10 @@
+{
+	"folders": [
+		{
+			"path": "../JS_Lern"
+		}
+	],
+	"settings": {
+		"liveServer.settings.multiRootWorkspaceName": "JS_calculator"
+	}
+}
