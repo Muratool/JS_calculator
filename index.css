@@ -1,89 +1,132 @@
-* {
-    margin: 0;
+*{
     padding: 0;
-    border-radius: 30px;
-}
-
-html {
-    height: 100%;
-}
-
-body {
-    height: 100%;
-    background-color: blueviolet;
+    margin: 0;
 }
 
 .container {
     display: flex;
     align-items: center;
     justify-content: center;
-    height: 100%;
-}
-.calculator {
-    width: auto;
-    box-shadow: 5px 5px;
-}
-
-.calculator-border{
-    background-color: rgb(88, 59, 59);
     padding: 10px;
 }
 
-.calculator-display {
-    display: flex;
-    min-height: 150px;
-    background-color: rgb(230, 230, 230);
+.num{
+    border-radius: 100%;
+    height: 50px;
+
     
-    align-items: center;
-    justify-content: center;
-
-    font-size: 40px;
-
-    margin-bottom: 10px;
-    /* margin: 30px 5px 10px 5px; */
 }
 
+.num:hover{
+    background-color: chocolate;
+}
 
-.calculator-btn {
+.calculator {
+    background-color: rgb(236, 214, 179);
     position: relative;
-    top: 0px;
-    bottom: 0px;
-
-    min-width: 100px;
-    min-height: 30px;
-    margin-bottom: 4px;
-    box-shadow: 2px 2px 1px;
-
-    background-color: rgb(185, 129, 237);
+    padding: 10px;
+   
 }
+.display {
+    height: 150px;
+    background-color: rgb(62, 110, 72);
+    margin: 10px;
+    padding: 5px;
 
-.calculator-btn__active {
-    background-color: rgb(150, 26, 26);;
+    font-size: 30px;
+    display: flex;
+    align-items: end;
+    justify-content: end;
 }
-
-/* .calculator-btn:hover {
-    background-color:  rgb(150, 26, 26);
-} */
-
-.calculator-btns-up {
+.bottons {
+    
+}
+.first-row {
+    min-height: 50px;
     display: flex;
     align-items: center;
     justify-content: space-between;
 }
-
-
-.calculator-btn__one{
-    padding: 10px;
-}
-
-.calculator-btn__two{
-    padding: 10px;
-}
-
-.calculator-btns-down {
-    margin: 15px 0 0 0;
+.AC {
     display: flex;
-    flex-direction: column;
     align-items: center;
     justify-content: center;
+
+    width: 50px;
+    height: 50px;
+
+    font-size: 30px;
+    font-weight: bold;
+}
+.plus-minus {
+    
+    
+}
+.division {
+    
+}
+.second-row {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.seven {
+    
+}
+.eight {
+    
+}
+.nine {
+    
+}
+.multiplication {
+    
+}
+.third-row {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.four {
+    
+}
+.five {
+    
+}
+.six {
+    
+    
+}
+.fourth-row {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.one {
+    
+}
+.two {
+    
+}
+.three {
+    
+}
+.plus {
+    
+}
+.fiveth-row {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.zero {
+    border-radius: 20%;
+    width: 50%;
+}
+
+.comma {
+    
+}
+.ravno {
+    
 }
