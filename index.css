@@ -1,139 +1,108 @@
-*{
-    padding: 0;
-    margin: 0;
+* {
+	padding: 0;
+	margin: 0;
 }
 
 .container {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    padding: 10px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	padding: 10px;
 }
 
-.num{
-    border-radius: 100%;
-    height: 50px;
-
-    
+.num {
+	border-radius: 100%;
+	height: 50px;
 }
 
-.num:hover{
-    background-color: chocolate;
+.num:hover {
+	background-color: chocolate;
 }
 
 .calculator {
-    background-color: rgb(236, 214, 179);
-    position: relative;
-    padding: 10px;
-   
-}
-.display {
-    height: 150px;
-    background-color: rgb(62, 110, 72);
-    margin: 10px;
-    padding: 5px;
-
-    font-size: 30px;
-    display: flex;
-    align-items: end;
-    justify-content: end;
-}
-.bottons {
-    
-}
-.first-row {
-    min-height: 50px;
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-}
-.AC {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-
-    width: 50px;
-    height: 50px;
-
-    font-size: 30px;
-    font-weight: bold;
-}
-.plus-minus {
-    border-radius: 5px;
-    
-}
-.division:hover {
+	background-color: rgb(234, 201, 158);
+	position: relative;
+	padding: 10px;
     border-radius: 10px;
 }
-.second-row {
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-}
-.seven {
-    
-}
-.eight {
-    
-}
-.nine {
-    
-}
-.multiplication:hover {
-    border-radius: 1px;
+.bottons{
+    background-color: rgb(207, 177, 138);
+    padding: 5px;
+    border-radius: 10px;
 }
 
+.display {
+	height: 150px;
+	background-color: rgb(52, 81, 50);
+    color: #ffffff;
+	margin: 10px;
+	padding: 5px;
+
+	font-size: 30px;
+	display: flex;
+	align-items: end;
+	justify-content: end;
+}
+
+.first-row {
+	min-height: 50px;
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+}
+.AC {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+
+	width: 50px;
+	height: 50px;
+
+	font-size: 30px;
+	font-weight: bold;
+}
+.plus-minus {
+	border-radius: 5px;
+}
+.division:hover {
+	border-radius: 10px;
+}
+.second-row {
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+}
+
+.multiplication:hover {
+	border-radius: 1px;
+}
 
 .third-row {
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-}
-.four {
-    
-}
-.five {
-    
-}
-.six {
-    
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
 }
 
-.six-img{
-    position: relative;
-    left: 1px;
+.six-img {
+	position: relative;
+	left: 1px;
 }
 
 .fourth-row {
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-}
-.one {
-    
-}
-.two {
-    
-}
-.three {
-    
-}
-.plus {
-    
-}
-.fiveth-row {
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-}
-.zero {
-    border-radius: 20%;
-    width: 50%;
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
 }
 
-.comma {
-    
+.fiveth-row {
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+}
+.zero {
+	border-radius: 20%;
+	width: 50%;
 }
 .ravno:hover {
-    border-radius: 10px;
+	border-radius: 10px;
 }
